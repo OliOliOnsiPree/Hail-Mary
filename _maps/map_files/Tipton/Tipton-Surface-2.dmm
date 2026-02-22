@@ -2734,7 +2734,7 @@
 /turf/open/indestructible/ground/outside/snow,
 /area/f13/wasteland/cold)
 "aZq" = (
-/obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/high,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/mid,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/underground/mountain)
 "aZt" = (
@@ -9409,10 +9409,6 @@
 	icon_state = "tunnelchess"
 	},
 /area/f13/ambientlighting/building/i)
-"dAh" = (
-/obj/effect/spawner/lootdrop/f13/weapon/gun/energy/midhigh,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/mountain)
 "dAx" = (
 /obj/structure/decoration/vent,
 /turf/closed/wall/f13/tunnel,
@@ -11459,10 +11455,6 @@
 "emy" = (
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
-"emQ" = (
-/mob/living/simple_animal/hostile/deathclaw/spiderclaw,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/mountain)
 "emR" = (
 /obj/effect/turf_decal/delivery,
 /obj/structure/rack,
@@ -101971,7 +101963,7 @@ uHd
 uHd
 fHV
 wsU
-emQ
+wsU
 wsU
 wsU
 uHd
@@ -105063,7 +105055,7 @@ wsU
 qjP
 uHd
 pgB
-dAh
+wFM
 aZq
 uHd
 uHd
@@ -105577,7 +105569,7 @@ wsU
 wsU
 mmF
 wsU
-emQ
+wsU
 wsU
 uHd
 uHd
