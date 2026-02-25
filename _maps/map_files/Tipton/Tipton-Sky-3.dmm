@@ -7535,6 +7535,7 @@
 /obj/item/stock_parts/manipulator,
 /obj/item/stack/sheet/glass,
 /obj/effect/turf_decal/stripes/box,
+/obj/item/stack/cable_coil/random/five,
 /turf/open/floor/plasteel/f13/vault_floor/red{
 	icon_state = "redrustyfull"
 	},
@@ -12925,6 +12926,7 @@
 /obj/item/stock_parts/manipulator,
 /obj/item/stack/sheet/glass,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/item/stack/cable_coil/random/five,
 /turf/open/floor/f13/wood,
 /area/f13/ncr/powered)
 "tJl" = (
@@ -14703,6 +14705,7 @@
 	dir = 4;
 	pixel_y = 21
 	},
+/obj/item/stack/cable_coil/random/five,
 /turf/open/floor/f13/wood,
 /area/f13/ncr/powered)
 "wEX" = (

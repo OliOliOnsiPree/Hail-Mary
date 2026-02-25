@@ -2895,6 +2895,7 @@
 /obj/item/stock_parts/matter_bin,
 /obj/item/stock_parts/manipulator,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/item/stack/cable_coil/random/five,
 /turf/open/floor/f13/wood,
 /area/f13/casino/powered)
 "bck" = (
@@ -4330,6 +4331,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/frame/machine,
 /obj/item/circuitboard/machine/colormate,
+/obj/item/stack/cable_coil/random/five,
 /turf/open/floor/f13/wood,
 /area/f13/ncr/powered)
 "bFM" = (
@@ -5823,6 +5825,7 @@
 /obj/item/stock_parts/matter_bin,
 /obj/item/stock_parts/manipulator,
 /obj/item/stack/sheet/glass,
+/obj/item/stack/cable_coil/random/five,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/legion)
 "chG" = (
@@ -8658,6 +8661,7 @@
 /obj/item/stock_parts/manipulator,
 /obj/item/stack/sheet/glass,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/item/stack/cable_coil/random/five,
 /turf/open/floor/f13/wood,
 /area/f13/casino/powered)
 "dmv" = (
@@ -22616,7 +22620,7 @@
 /area/f13/building/powered)
 "iAN" = (
 /mob/living/simple_animal/cow/brahmin/horse,
-/turf/open/floor/plating/dirt,
+/turf/open/indestructible/ground/outside/snow,
 /area/f13/wasteland/powered)
 "iAO" = (
 /obj/effect/decal/cleanable/dirt,
@@ -35031,6 +35035,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/frame/machine,
+/obj/item/stack/cable_coil/random/five,
 /turf/open/floor/f13{
 	dir = 10;
 	icon_state = "redmark"
@@ -38799,6 +38804,7 @@
 "ozS" = (
 /obj/item/circuitboard/machine/ore_silo,
 /obj/structure/frame/machine,
+/obj/item/stack/cable_coil/random/five,
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
 	},
@@ -54951,6 +54957,7 @@
 /obj/item/stock_parts/matter_bin,
 /obj/item/stock_parts/matter_bin,
 /obj/item/stock_parts/manipulator,
+/obj/item/stack/cable_coil/random/five,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/legion)
 "uAV" = (
@@ -55758,6 +55765,7 @@
 /obj/item/stock_parts/matter_bin,
 /obj/item/stock_parts/manipulator,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/item/stack/cable_coil/random/five,
 /turf/open/floor/f13/wood,
 /area/f13/ncr/powered)
 "uQF" = (
@@ -112986,7 +112994,7 @@ jRd
 jRd
 yiA
 jRd
-jRd
+wFG
 jRd
 jRd
 jRd
@@ -130215,7 +130223,7 @@ vvU
 vEr
 vvU
 tLT
-iAN
+rvU
 ehI
 tPl
 uuV
@@ -137157,7 +137165,7 @@ jCj
 gGe
 lKO
 vEr
-vEr
+iAN
 vEr
 vEr
 vEr
@@ -138667,7 +138675,7 @@ fPR
 fPR
 oIL
 psC
-uEr
+nly
 nly
 aHr
 aHr
@@ -145109,7 +145117,7 @@ gJI
 gJI
 tej
 tdf
-emy
+hEG
 emy
 dbq
 dbq
@@ -146543,7 +146551,7 @@ aBp
 dLS
 qad
 qrb
-emy
+hEG
 emy
 cdP
 eRp
