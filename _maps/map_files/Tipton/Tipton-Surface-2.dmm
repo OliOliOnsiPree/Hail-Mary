@@ -1272,6 +1272,14 @@
 	},
 /turf/open/indestructible/ground/outside/gravel,
 /area/f13/wasteland/cold)
+"awD" = (
+/obj/effect/decal/remains/hay{
+	dir = 1;
+	pixel_y = -2;
+	layer = 3.01
+	},
+/turf/open/indestructible/ground/inside/dirt,
+/area/f13/ncr/powered)
 "awM" = (
 /obj/item/storage/trash_stack,
 /turf/open/indestructible/ground/inside/mountain,
@@ -7970,6 +7978,10 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/ambientlighting/building/t)
+"cYm" = (
+/mob/living/simple_animal/cow/brahmin/nightstalker,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "cYr" = (
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_4"
@@ -20599,6 +20611,16 @@
 	},
 /turf/open/floor/plating/rust,
 /area/f13/ambientlighting/building/d)
+"hNW" = (
+/obj/effect/decal/remains/hay{
+	dir = 4
+	},
+/obj/item/pitchfork{
+	pixel_y = 2;
+	pixel_x = -5
+	},
+/turf/open/indestructible/ground/inside/dirt,
+/area/f13/ncr/powered)
 "hNY" = (
 /obj/structure/chair/f13chair1,
 /turf/open/floor/plating/dirt,
@@ -29376,6 +29398,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/f13/wood,
 /area/f13/building/powered)
+"laH" = (
+/obj/effect/decal/remains/hay,
+/turf/open/floor/plating/dirt,
+/area/f13/wasteland/cold)
 "laR" = (
 /obj/machinery/door/poddoor/shutters{
 	id = "coldroom_cannery";
@@ -32683,7 +32709,7 @@
 /turf/closed/wall/f13/wood/house,
 /area/f13/building/powered)
 "mnH" = (
-/mob/living/simple_animal/cow/brahmin/horse,
+/obj/effect/decal/remains/hay,
 /turf/open/indestructible/ground/inside/dirt,
 /area/f13/wasteland/cold)
 "mnN" = (
@@ -36218,6 +36244,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
+/mob/living/simple_animal/cow/brahmin/horse,
 /turf/open/indestructible/ground/inside/dirt,
 /area/f13/wasteland/cold)
 "nBy" = (
@@ -38933,6 +38960,17 @@
 	icon_state = "bluerustychess2"
 	},
 /area/f13/wasteland/cold)
+"oDo" = (
+/obj/effect/decal/remains/hay{
+	dir = 8;
+	pixel_y = -1
+	},
+/obj/item/pitchfork{
+	pixel_y = 6;
+	pixel_x = 2
+	},
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "oDs" = (
 /obj/structure/table/wood,
 /obj/item/papercutter{
@@ -43098,6 +43136,12 @@
 	icon_state = "horizontaltopbordertop0"
 	},
 /area/f13/tunnel)
+"qeZ" = (
+/obj/effect/decal/remains/hay{
+	dir = 4
+	},
+/turf/open/indestructible/ground/inside/dirt,
+/area/f13/wasteland/cold)
 "qfd" = (
 /obj/structure/flora/grass/brown,
 /turf/open/indestructible/ground/outside/snow,
@@ -49425,6 +49469,16 @@
 /obj/effect/landmark/start/f13/ncrdrillsergeant,
 /turf/open/floor/plating/dirt,
 /area/f13/tunnel)
+"syn" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/remains/hay{
+	dir = 8;
+	pixel_y = -1
+	},
+/turf/open/floor/f13{
+	icon_state = "whitegreenrustychess"
+	},
+/area/f13/building/powered)
 "sys" = (
 /obj/structure/chair/office/dark,
 /turf/open/floor/f13{
@@ -60671,6 +60725,13 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/ambientlighting/building/v)
+"wFC" = (
+/obj/effect/decal/remains/hay{
+	dir = 8;
+	pixel_y = -1
+	},
+/turf/open/floor/plating/dirt,
+/area/f13/wasteland/cold)
 "wFG" = (
 /mob/living/simple_animal/cow/brahmin/horse,
 /turf/open/indestructible/ground/outside/snow,
@@ -64032,11 +64093,8 @@
 	},
 /area/f13/building/powered)
 "xWu" = (
-/mob/living/simple_animal/cow/brahmin/horse,
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 8;
-	icon_state = "dirtcorner"
-	},
+/obj/effect/decal/remains/hay,
+/turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "xWA" = (
 /obj/structure/stairs/north{
@@ -76663,7 +76721,7 @@ cAd
 cAd
 cAd
 cAd
-mgp
+hNW
 slY
 slY
 slY
@@ -76922,7 +76980,7 @@ cAd
 cAd
 cAd
 bjh
-slY
+awD
 qIj
 yez
 cAd
@@ -85172,7 +85230,7 @@ cAJ
 jRd
 jRd
 jaV
-pMk
+laH
 pMk
 hwx
 pMk
@@ -85429,7 +85487,7 @@ jRd
 xyH
 jRd
 jaV
-pMk
+wFC
 fbD
 pMk
 hwx
@@ -111552,7 +111610,7 @@ cAd
 cAd
 cAd
 aHr
-pmX
+qeZ
 cUR
 nye
 poC
@@ -153091,8 +153149,8 @@ dbq
 dbq
 dbq
 dbq
-emy
-xWu
+cYm
+rQY
 kQV
 qNG
 dbq
@@ -153610,7 +153668,7 @@ dFz
 szU
 kcY
 cfd
-emy
+oDo
 dbq
 dbq
 fyb
@@ -154641,7 +154699,7 @@ fky
 fky
 eQC
 ckn
-emy
+xWu
 dbq
 dbq
 wsU
@@ -158913,7 +158971,7 @@ xEc
 dsV
 nAB
 vgK
-dCN
+syn
 gcX
 jLg
 gcX
