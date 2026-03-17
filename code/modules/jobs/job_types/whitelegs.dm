@@ -102,6 +102,7 @@ Sidearms are 45mm.
 	display_order = JOB_DISPLAY_ORDER_WARCHIEF
 	access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS, ACCESS_LEGION_COMMAND)
 	minimal_access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS, ACCESS_LEGION_COMMAND)
+	exp_requirements = 4500
 
 	loadout_options = list(
 		/datum/outfit/loadout/powerfist,	// i can't believe you've done this
@@ -164,6 +165,7 @@ Sidearms are 45mm.
 
 	access = list(ACCESS_LEGION)
 	minimal_access = list(ACCESS_LEGION)
+	exp_requirements = 1500
 
 /datum/outfit/job/whitelegs/f13lightbringer/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -203,6 +205,7 @@ Sidearms are 45mm.
 
 	access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS, ACCESS_LEGION_COMMAND)
 	minimal_access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS, ACCESS_LEGION_COMMAND)
+	exp_requirements = 1500
 
 /datum/outfit/job/whitelegs/f13sapper/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -240,6 +243,7 @@ Sidearms are 45mm.
 
 	access = list(ACCESS_LEGION)
 	minimal_access = list(ACCESS_LEGION)
+	exp_requirements = 900
 
 /datum/outfit/job/whitelegs/f13bonebreaker/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -286,6 +290,9 @@ Sidearms are 45mm.
 
 	access = list(ACCESS_LEGION)
 	minimal_access = list(ACCESS_LEGION)
+	exp_type = EXP_TYPE_FALLOUT
+	exp_requirements = 720
+
 
 /datum/outfit/job/whitelegs/f13painmaker/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -332,6 +339,7 @@ Sidearms are 45mm.
 
 	access = list(ACCESS_LEGION)
 	minimal_access = list(ACCESS_LEGION)
+	exp_requirements = 1500
 
 /datum/outfit/job/whitelegs/f13stormdrummer/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()

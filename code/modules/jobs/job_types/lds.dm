@@ -39,6 +39,7 @@ Sidearm is 1911.
 	description = "You are the President of the Wendover Temple, chosen for your willingness to serve the community. Spiritual, political and, if need be, military leadership rests with you. Protect your people from the wrath of the White Legs and the fickle cruelty of the local raiders."
 	selection_color = "#D4AF37"
 	display_order = JOB_DISPLAY_ORDER_TEMPLEPRESIDENT
+	exp_requirements = 4500
 
 	outfit = /datum/outfit/job/latterdaysaints/f13templepresident
 	matchmaking_allowed = list(
@@ -117,6 +118,7 @@ Sidearm is 1911.
 	description = "You were chosen to become a missionary for your proficiency at learning languages. How you'll best serve the Church is up to you and the Temple President, but your time among the tribes has given you a unique insight into their ways of living."
 	selection_color = "#d9c687"
 	display_order = JOB_DISPLAY_ORDER_MISSIONARY
+	exp_requirements = 3300
 
 	outfit = /datum/outfit/job/latterdaysaints/f13missionary
 
@@ -195,6 +197,7 @@ Sidearm is 1911.
 	description = "You are charged with the protection of the President, the Temple and all its inhabitants. If God is with you, who can be against you?"
 	selection_color = "#d9c687"
 	display_order = JOB_DISPLAY_ORDER_TEMPLEGUARD
+	exp_requirements = 900
 
 	outfit = /datum/outfit/job/latterdaysaints/f13templeguard
 
@@ -252,6 +255,8 @@ Sidearm is 1911.
 	description = "Through birth, marriage or some other circumstance, you are a New Canaanite. A survivor of the exodus from your homeland. It's beautiful towns in the mountains and on the shores of the Great Salt Lake now ash, fallen to the treachery of the White Legs."
 	selection_color = "#d9c687"
 	display_order = JOB_DISPLAY_ORDER_NEWCANAANITE
+	exp_type = EXP_TYPE_FALLOUT
+	exp_requirements = 720
 
 	outfit = /datum/outfit/job/latterdaysaints/f13newcanaanite
 	matchmaking_allowed = list(

@@ -49,7 +49,7 @@ Trail Carbine + .45 for all rangers outside of the veteran.
 	display_order = JOB_DISPLAY_ORDER_VETRANGE
 	access = list(ACCESS_NCR, ACCESS_NCR_ARMORY, ACCESS_NCR_COMMAND)
 	outfit = /datum/outfit/job/ranger/f13vetranger
-	exp_requirements = 1800
+	exp_requirements = 4500
 
 	min_required_special = list(
 		"special_c" = 4,
@@ -104,7 +104,7 @@ Trail Carbine + .45 for all rangers outside of the veteran.
 	selection_color = "#fff5cc"
 	display_order = JOB_DISPLAY_ORDER_PATROLRANGER
 	outfit = /datum/outfit/job/ranger/f13rangerpatrol
-	exp_requirements = 600
+	exp_requirements = 900
 
 /datum/outfit/job/ranger/f13rangerpatrol/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	. = ..()
@@ -154,7 +154,7 @@ Trail Carbine + .45 for all rangers outside of the veteran.
 	selection_color = "#fff5cc"
 	display_order = JOB_DISPLAY_ORDER_SCOUTRANGER
 	exp_type = EXP_TYPE_FALLOUT
-	exp_requirements = 360
+	exp_requirements = 720
 
 	outfit = /datum/outfit/job/ranger/f13rangerscout
 
@@ -205,7 +205,7 @@ Trail Carbine + .45 for all rangers outside of the veteran.
 	supervisors = "Veteran Ranger"
 	selection_color = "#fff5cc"
 	display_order = JOB_DISPLAY_ORDER_MEDICRANGER
-	exp_requirements = 900
+	exp_requirements = 1500
 
 	outfit = /datum/outfit/job/ranger/f13rangermedic
 

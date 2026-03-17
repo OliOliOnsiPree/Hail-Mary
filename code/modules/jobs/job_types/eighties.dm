@@ -72,7 +72,7 @@ Sidearms are 10mm.
 	spawn_positions = 1
 	outfit = /datum/outfit/job/eighties/f13warboss
 	display_order = JOB_DISPLAY_ORDER_WARBOSS
-	exp_requirements = 900
+	exp_requirements = 4500
 	access = list(ACCESS_80S, ACCESS_80SB, ACCESS_80SR, ACCESS_CHANGE_IDS)
 	minimal_access = list(ACCESS_80S, ACCESS_80SB, ACCESS_80SR, ACCESS_CHANGE_IDS)
 
@@ -170,7 +170,7 @@ Sidearms are 10mm.
 	description = "You are the master of ceremonies, leader of the two arena teams and unofficial second in command of the 80s. Put on a good show."
 	supervisors = "the Warboss"
 	display_order = JOB_DISPLAY_ORDER_ARENAMASTER
-	exp_requirements = 600
+	exp_requirements = 3300
 	outfit = /datum/outfit/job/eighties/f13arenamaster
 
 	access = list(ACCESS_80S, ACCESS_80SB, ACCESS_80SR, ACCESS_CHANGE_IDS)
@@ -373,6 +373,7 @@ Sidearms are 10mm.
 	description = "You are one of the prized mechanics of your tribe, entrusted with the care of your people's famous war buggies. Your technical skills also make you the best suited for making and improving your tribe's weapons and armor, constructing defenses or whatever else you think of."
 	supervisors = "the Warboss"
 	display_order = JOB_DISPLAY_ORDER_BLACKFINGER
+	exp_requirements = 1500
 	outfit = /datum/outfit/job/eighties/f13blackfinger
 
 	access = list(ACCESS_80S)
@@ -465,6 +466,7 @@ Sidearms are 10mm.
 	description = "You are a run of the mill 80. Your tribe (or gang depending on who you ask) roams the I-80, raiding, kidnapping and ransoming whoever they can. Whether you were born into it or joined up later in life, this group is the closest thing you have to a family."
 	supervisors = "the Warboss"
 	display_order = JOB_DISPLAY_ORDER_EIGHTY
+	exp_requirements = 900
 	outfit = /datum/outfit/job/eighties/f13eighty
 
 	access = list(ACCESS_80S)
@@ -701,6 +703,9 @@ Sidearms are 10mm.
 	description = "You're one of the many hangers-on of the 80s. Whether you're a raider hoping to join up, a scavver working the graveyard, a hopeful revhead or just lost, you're under the protection of the 80s."
 	supervisors = "the Warboss."
 	display_order = JOB_DISPLAY_ORDER_ROADIE
+	exp_type = EXP_TYPE_FALLOUT
+	exp_requirements = 720
+
 	outfit = /datum/outfit/job/eighties/f13roadie
 
 	access = list(ACCESS_80S)
